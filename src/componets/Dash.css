@@ -1,0 +1,125 @@
+.dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li .active-link {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  button.primary-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.secondary-button {
+    background-color: #95a5a6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.danger-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .data-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #ecf0f1;
+  }
+  
+  .analytics-charts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .chart {
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .notifications-list, .feedback-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notifications-list li, .feedback-list li {
+    padding: 10px;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  form button.primary-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #34495e;
+  }
+  
